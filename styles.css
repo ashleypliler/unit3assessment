@@ -28,7 +28,6 @@ a:visited {
 	color: crimson;
 }
 
-
 input {
 	display: block;
 	margin: 10px;
@@ -36,7 +35,26 @@ input {
 
 label {
 	display: inline;
+	width: 200px;
+	font-family:Arial, Helvetica, sans-serif;
 }
+
+label input {
+	float:left;
+}
+
+label span {
+	display: block;
+	overflow: auto; 
+	margin: 30px;
+}
+
+.home-h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
 
 img {
 	width: 100px;
@@ -56,6 +74,7 @@ img {
 	font-family:'Times New Roman', Times, serif;
 	font-size: 40px;
 	border-bottom:7px dotted bisque;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -63,24 +82,26 @@ h2 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 20px;
 	color:black;
-	margin-top: 40px;
-
+	margin-top: 15px;
 }
 
 ul {
 	display: block;
-	font-family: monospace;
+	font-family:Arial, Helvetica, sans-serif;
 	margin-top: 30px;
-	font-size: 15px;
+	font-size: 17px;
+}
 
+p {
+	font-size: 17px;
 }
 
 #prof-body {
-	background-image: url('./IMG_3498.jpg');
-	width: 100vw;
-	position: end;
-	height: 100vh;
+	background: url('./IMG_3498.jpg') no-repeat center fixed;     
+    background-size:auto;
+	background-position: center;
 }
+
 #nav-button {
 	color: bisque;
 }
@@ -89,7 +110,6 @@ ul {
 	color: orange;
 	display: flex;
 	position: absolute;
-
 }
 
 .tags {
@@ -98,22 +118,11 @@ ul {
 	margin: 3%;
 }
 
-
-.prof-pic {
-	display: flex;
-	position: absolute;
-	right: 80px;
-	top: 275px;
-	height: 300px;
-	width: 250px;
-	border: 5px double bisque;
-}
-
 .headers {
 	font-size: 25px;
 	color: rgb(255, 212, 133);
 	font-family: 'Times New Roman', Times, serif;
-	margin-top: 20%;
+	margin-top: 13%;
 }
 
 .profileButtons {
@@ -121,27 +130,9 @@ ul {
 	border: 2px solid black;
 	color: rgb(255, 212, 133);
 	height: 25px;
-	font-size: 15px;
+	font-size: 15x;
 	font-family: monospace;
-}
-
-#color {
-	display: flex;
-	position: absolute;
-	left: 170px;
-	top: 190px;
-}
-#place {
-	display: flex;
-	position: absolute;
-	left: 350px;
-	top: 190px;
-}
-#ritual {
-	display: flex;
-	position: absolute;
-	left: 530px;
-	top: 190px;
+	display: inline;
 }
 
 .alpine-pic {
@@ -152,6 +143,7 @@ ul {
 	top: px;
 	left: 0;
 }
+
 .alpine{
 	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
@@ -163,23 +155,18 @@ ul {
 	background-color: rgb(255, 247, 236);
 }
 
-#nav-neighborhood {
-	color: black;
-}
-
 .leftHeader {
 	height: 100px;
 	width: 400px;
 	display: flex;
 	position: absolute;
 	left: 40px;
-	top: 315px;
+	top: 400px;
 	border: 2px solid black;
 	text-align: center;
 	font-size: 20px;
 	padding: 20px;
 	font-family: 'Times New Roman', Times, serif;
-	
 }
 
 .rightHeader {
@@ -188,7 +175,7 @@ ul {
 	display: flex;
 	position: absolute;
 	right: 100px;
-	top: 315px;
+	top: 400px;
 	border: 2px solid black;
 	padding: 10px;
 	font-family: 'Times New Roman', Times, serif;
@@ -202,7 +189,7 @@ ul {
 .alpineButton {
 	display: flex;
 	position:absolute;
-	bottom: 30px;
+	bottom: 100px;
 	left: 150px;
 	height: 30px;
 	font-size: 17px;
